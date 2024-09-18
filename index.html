@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum HTML</title>
+</head>
+<body>
+    <h1>Profil Mahasiswa</h1>
+        <p>Dewa Made Danny Indrawan Widnyana</p>
+        <img src="Foto.png" alt="ini adalah foto Danny">
+   
+    <h2>Biografi</h2>
+    <ul>
+        <p>Saya adalah siswa dari jurusan Teknologi informasi</p>
+        <p>Anda dapat menghubungi saya melalui email di <a href="mailto:dewamadedanny@gmail.com">dewamadedanny@gmail.com</a>.</p>
+        <li><a href="https://www.instagram.com/dwdnnyindr/" target="_blank">Kunjungi Profil Instagram Saya</a></li>
+        <li><a href="https://www.facebook.com/Danny Indr Wn/" target="_blank">Kunjungi Profil Facebook Saya</a></li>
+        <li><a href="https://www.linkedin.com/in/dewa-made-danny-indrawan-widnyana-a10b46329/" target="_blank">Kunjungi Profil Linkedin Saya</a></li>
+    </ul>
+    
+    <h3>Hobi Saya</h3>
+    <ul>
+        <li>Menggambar</li>
+        <li>Bermain Game</li>
+    </ul>
+    
+    <h4>Riwayat Pendidikan</h4>
+    <table border="1">
+    <tr>
+        <th>Pendidikan</th>
+        <th>Tahun Pendidikan</th>
+        <th>Jurusan</th>
+    </tr>
+    <tr>
+        <td>SD Negeri 9 Sesetan</td>
+        <td>2011-2017</td>
+        <td>   -   </td>
+    </tr>
+    <tr>
+        <td>SMP Nasional Denpasar</td>
+        <td>2017-2020</td>
+        <td>   -   </td>
+    </tr>
+    <tr>
+        <td>SMK TI Bali Global Denpasar</td>
+        <td>2020-2023</td>
+        <td>Multimedia</td>
+    </tr>
+    </table>
+<h5>Formulir Kontak</h5>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="fullname" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="emailaddr" required><br><br>
+        
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="usermessage" rows="4"
+required></textarea><br><br>
+<button type="submit">Kirim</button>
+</form>
+</body>
+</html>
